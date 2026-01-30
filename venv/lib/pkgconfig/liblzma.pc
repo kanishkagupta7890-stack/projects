@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: 0BSD
+# Author: Lasse Collin
+
+prefix=/Users/khushboomacbook/Desktop/projects/venv
+exec_prefix=/Users/khushboomacbook/Desktop/projects/venv
+libdir=/Users/khushboomacbook/Desktop/projects/venv/lib
+includedir=/Users/khushboomacbook/Desktop/projects/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.8.2
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread 
