@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: projects
+Version: 0.1
+Author: kanishkagupta
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
