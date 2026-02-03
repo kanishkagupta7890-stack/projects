@@ -1,7 +1,20 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: projects
 Version: 0.1
 Author: kanishkagupta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8.0
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: seaborn
+Dynamic: author
+Dynamic: classifier
+Dynamic: requires-dist
+Dynamic: requires-python
