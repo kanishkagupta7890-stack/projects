@@ -46,10 +46,10 @@ class DataIngestion:
             raise CustomException(e, sys)
 
 if __name__=="__main__":
-    print("ingestion")
-    obj=DataIngestion()
+    print("Starting data ingestion...")
+    obj = DataIngestion()
     train_data, test_data = obj.initiate_data_ingestion()
-    
-    data_transformation = DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
+    print(f"Train data saved to: {train_data}")
+    print(f"Test data saved to: {test_data}")
+    print("Data ingestion completed successfully!")
 
