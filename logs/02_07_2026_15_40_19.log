@@ -1,0 +1,9 @@
+[ 2026-02-07 15:40:19,895 ] 29 root - INFO - Model and preprocessor loaded successfully
+[ 2026-02-07 15:40:19,905 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-07 15:40:19,912 ] 97 werkzeug - INFO -  * Debugger PIN: 349-912-989
+[ 2026-02-07 15:40:23,397 ] 39 root - INFO - Received data: gender=male, ethnicity=group A, education=high school, lunch=standard, test_course=none, reading=70.0, writing=75.0
+[ 2026-02-07 15:40:23,399 ] 34 root - INFO - Making prediction
+[ 2026-02-07 15:40:23,401 ] 45 root - ERROR - Error in prediction: columns are missing: {'writing_score', 'test_preparation_course', 'reading_score', 'race_ethnicity', 'parental_level_of_education'}
+[ 2026-02-07 15:40:23,401 ] 62 root - ERROR - Error during prediction: cannot unpack non-iterable module object
+[ 2026-02-07 15:40:23,401 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Feb/2026 15:40:23] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2026-02-07 15:40:57,977 ] 97 werkzeug - INFO -  * Detected change in '/Users/khushboomacbook/Desktop/projects/src/app.py', reloading

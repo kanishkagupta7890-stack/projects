@@ -1,0 +1,13 @@
+[ 2026-02-06 18:54:05,747 ] 27 root - INFO - Entered the data ingestion method or component
+[ 2026-02-06 18:54:05,749 ] 30 root - INFO - Read the dataset as dataframe
+[ 2026-02-06 18:54:05,751 ] 34 root - INFO - Train test split initiated
+[ 2026-02-06 18:54:05,753 ] 40 root - INFO - Ingestion of data is completed
+[ 2026-02-06 18:54:05,755 ] 69 root - INFO - Read train and test data completed
+[ 2026-02-06 18:54:05,755 ] 71 root - INFO - obtaining preprocessing object
+[ 2026-02-06 18:54:05,755 ] 49 root - INFO - Numerical columns standard scaling completed
+[ 2026-02-06 18:54:05,755 ] 51 root - INFO - Categorical columns standard scaling completed
+[ 2026-02-06 18:54:05,756 ] 84 root - INFO - applying preprocessing object on training dataframe and testing dataframe.
+[ 2026-02-06 18:54:05,777 ] 92 root - INFO - Saved preprocessing object
+[ 2026-02-06 18:54:05,777 ] 28 root - INFO - Splitting training and test input data
+[ 2026-02-06 18:54:06,635 ] 50 root - INFO - Model Report: {'Linear Regression': 0.8804332983749565, 'Lasso': 0.8564278149469471, 'Ridge': 0.8805671790733921, 'K-Neighbors Regressor': 0.47561174068704326, 'Decision Tree': 0.768244551620295, 'Random Forest Regressor': 0.8516792823001037, 'XGBRegressor': 0.8230898008444014, 'CatBoosting Regressor': 0.8523560006768236, 'AdaBoost Regressor': 0.8470137887494155}
+[ 2026-02-06 18:54:06,635 ] 61 root - INFO - Best found model on both training and testing dataset is Ridge
